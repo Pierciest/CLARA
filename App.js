@@ -5,7 +5,7 @@ import Welcome from "./components/welcome/Welcome";
 import Weather from "./components/weather/weather";
 
 const WEATHER_API_URL = "https://api.openweathermap.org/data/2.5/weather";
-const WEATHER_API_KEY = "0079f8e00d7062639673890db026a633";
+const WEATHER_API_KEY = "YOUR_API_KEY";
 
 const App = () => {
   const [currentWeather, setCurrentWeather] = useState("");
