@@ -18,12 +18,11 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     marginBottom: 10,
-    width: "20%",
   },
   LocationText: {
     fontSize: 25,
-    color: "#fff",
-    fontWeight: "200",
+    color: "#F9F6EE",
+    fontWeight: "250",
   },
   pin:{
     width: 20,
@@ -33,15 +32,15 @@ const styles = StyleSheet.create({
   },
   temperatureText: {
     fontSize: 45,
-    color: "#fff",
+    color: "#F9F6EE",
     textAlign: 'center',
-    fontWeight: "200",
+    fontWeight: "250",
   },
   weather: {
-    fontSize: 70,
-    color: "#fff",
+    fontSize: 60,
+    color: "#F9F6EE",
     textAlign: 'center',
-    fontWeight: "200",
+    fontWeight: "250",
   },
   weatherView:{
     flexDirection: 'column',

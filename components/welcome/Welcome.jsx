@@ -11,7 +11,7 @@ const Welcome = ({item}) => {
         </View>
         <View stlye = {styles.weatherView}>
           <Text style = {styles.weather}>{item.weather[0].description}</Text>
-          <Text style = {styles.temperatureText}>{Math.round(item.main.temp)} °C</Text>
+          <Text style = {styles.temperatureText}>{Math.round(item.main.temp)}°</Text>
         </View>
       </View>
     </View>

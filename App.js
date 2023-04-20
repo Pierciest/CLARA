@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { Text, View, ImageBackground } from "react-native";
-import weatherImages from "./Images/images"; // assuming you have the weatherImages module with the images
+import { Text, View, ImageBackground, SafeAreaView } from "react-native";
+import weatherImages from "./Images/images";
 import Welcome from "./components/welcome/Welcome";
 import Weather from "./components/weather/weather";
 
@@ -9,7 +9,6 @@ const WEATHER_API_KEY = "0079f8e00d7062639673890db026a633";
 
 const App = () => {
   const [currentWeather, setCurrentWeather] = useState("");
-  
 
   useEffect(() => {
     const fetchWeather = async () => {
@@ -24,21 +23,21 @@ const App = () => {
       }
     };
     fetchWeather();
-    
   }, []);
-  
 
   if (!currentWeather) {
     return <Text>Loading...</Text>;
   }
-  let backgroundImage = weatherImages[currentWeather.weather[0].icon];  
-  
-  
 
+  let backgroundImage = weatherImages[currentWeather.weather[0].icon];
 
   return (
-    <View>
-      <ImageBackground source={backgroundImage} style={{ flex: 1 }}>
+    <View style={{ flex: 1, margin: 0, padding: 0 }}>
+      <ImageBackground
+        source={backgroundImage}
+        resizeMode="cover"
+        style={{ flex: 1 }}
+      >
         <Welcome item={currentWeather} />
         <Weather item={currentWeather} />
       </ImageBackground>

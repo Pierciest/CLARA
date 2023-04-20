@@ -1,21 +1,21 @@
 import d01d from "./01d.jpeg";
-import d01n from "./01d.jpeg";
+import d01n from "./01n.jpg";
 import d02d from "./01d.jpeg";
-import d02n from "./01d.jpeg";
-import d03d from "./03d.jpeg";
-import d03n from "./03d.jpeg";
-import d04d from "./03d.jpeg";
-import d04n from "./03d.jpeg";
+import d02n from "./01n.jpg";
+import d03d from "./03d.jpg";
+import d03n from "./03n.jpg";
+import d04d from "./03d.jpg";
+import d04n from "./03n.jpg";
 import d09d from "./09d.jpg";
-import d09n from "./09d.jpg";
+import d09n from "./09n.jpg";
 import d10d from "./09d.jpg";
-import d10n from "./09d.jpg";
+import d10n from "./09n.jpg";
 import d11d from "./09d.jpg";
-import d11n from "./09d.jpg";
+import d11n from "./09n.jpg";
 import d13d from "./13d.jpg";
-import d13n from "./13d.jpg";
+import d13n from "./13n.jpg";
 import d50d from "./50d.jpeg";
-import d50n from "./50d.jpeg";
+import d50n from "./50n.jpg";
 
 export default {
   "01d": d01d,

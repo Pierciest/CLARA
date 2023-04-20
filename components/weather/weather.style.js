@@ -20,6 +20,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     marginBottom: 50,
+    borderColor: "black",
   },
 
   textBox: {
